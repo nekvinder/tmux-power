@@ -1,5 +1,10 @@
 # Tmux Power
 
+## Fork Note:
+
+Taken as is from https://github.com/wfxr/tmux-power.
+Removed the user info as I don't like that. Maybe better to make if configurable and push upstream, but for now, to save time, just fork, edit, and use.
+
 Yet another powerline theme for tmux.
 
 [![TPM](https://img.shields.io/badge/tpm--support-true-blue)](https://github.com/tmux-plugins/tpm)
@@ -18,7 +23,7 @@ Clone the repo somewhere and source it in `.tmux.conf`:
 run-shell "/path/to/tmux-power.tmux"
 ```
 
-*NOTE: Options should be set before sourcing.*
+_NOTE: Options should be set before sourcing._
 
 **Install using [TPM](https://github.com/tmux-plugins/tpm)**
 
@@ -29,53 +34,71 @@ set -g @plugin 'wfxr/tmux-power'
 ### 🎨 Themes
 
 #### Gold (default)
+
 ```bash
 set -g @tmux_power_theme 'gold'
 ```
+
 ![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-gold.png)
 
 #### Everforest
+
 ```bash
 set -g @tmux_power_theme 'everforest'
 ```
+
 ![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-everforest.png)
 
 #### Moon
+
 ```bash
 set -g @tmux_power_theme 'moon'
 ```
+
 ![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-moon.png)
 
 #### Coral
+
 ```bash
 set -g @tmux_power_theme 'coral'
 ```
+
 ![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-coral.png)
 
 #### Snow
+
 ```bash
 set -g @tmux_power_theme 'snow'
 ```
+
 #### Forest
+
 ```bash
 set -g @tmux_power_theme 'forest'
 ```
+
 Violet
+
 ```bash
 set -g @tmux_power_theme 'violet'
 ```
+
 #### Redwine
+
 ```bash
 set -g @tmux_power_theme 'redwine'
 ```
+
 #### Default
+
 ```bash
 set -g @tmux_power_theme 'default'
 ```
+
 Set this theme if you want to honor the terminal colorscheme. To be used with
 something like [pywal](https://github.com/dylanaraps/pywal) for instance.
 
-### ⚙  Customizing
+### ⚙ Customizing
 
 You can define your favourite main color if you don't like any of above.
 
@@ -92,6 +115,7 @@ set -g @tmux_power_time_format '%T'
 
 You can also customize the icons. As an example,
 the following configurations can generate the theme shown in the first screenshot:
+
 ```bash
 set -g @plugin 'wfxr/tmux-power'
 set -g @plugin 'wfxr/tmux-net-speed'
@@ -110,7 +134,7 @@ set -g @tmux_power_download_speed_icon  '󰇚'
 set -g @tmux_power_prefix_highlight_pos 'R'
 ```
 
-*The default icons use glyphs from [nerd-fonts](https://github.com/ryanoasis/nerd-fonts).*
+_The default icons use glyphs from [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)._
 
 ### 📦 Plugin support
 
