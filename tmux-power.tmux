@@ -19,8 +19,8 @@ tmux_set() {
 }
 
 # Options
-rarrow=$(tmux_get '@tmux_power_right_arrow_icon' '')
-larrow=$(tmux_get '@tmux_power_left_arrow_icon' '')
+rarrow=$(tmux_get '@tmux_power_right_arrow_icon' '')
+larrow=$(tmux_get '@tmux_power_left_arrow_icon' '')
 upload_speed_icon=$(tmux_get '@tmux_power_upload_speed_icon' '󰕒')
 download_speed_icon=$(tmux_get '@tmux_power_download_speed_icon' '󰇚')
 session_icon="$(tmux_get '@tmux_power_session_icon' '')"
