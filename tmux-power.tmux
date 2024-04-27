@@ -68,18 +68,20 @@ case $TC in
 	;;
 esac
 
-G01=#080808 #232
-G02=#121212 #233
-G03=#1c1c1c #234
-G04=#262626 #235
-G05=#303030 #236
-G06=#3a3a3a #237
-G07=#444444 #238
-G08=#4e4e4e #239
-G09=#585858 #240
-G10=#626262 #241
-G11=#6c6c6c #242
-G12=#767676 #243
+G01=default #232
+G02=default #233
+G03=default #234
+G04=default #235
+G05=default #236
+G06=default #237
+G07=default #238
+G08=default #239
+G09=default #240
+G10=default #241
+G11=default #242
+G12=default #243
+
+G04=#fff #232
 
 FG="$G10"
 BG="$G04"
